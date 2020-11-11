@@ -1,0 +1,34 @@
+{
+	/*  UI Configuration  _________________________________________
+	*/
+
+	// Select the sidebar widget [], ["clock"], ["date"], ["weather"], ["clock", "weather", "date"], ...
+	// Widget switching is possible with 'shift+esc'
+
+	"widget": ["clock"],
+	"widget.scale": 1, // 1 or 1.33
+	"widget.clock.mode" : "24h",
+	"widget.clock.color": "#FFCC67",
+	"widget.clock.color.dirty": "#FF3377",
+	"widget.clock.color.readonly": "#B4B4B4",
+	"widget.clock.color.alert": "#FF1919",
+	"widget.clock.color.info": "#19FFFF",
+
+	/*  Weather : openweathermap.org  _____________________________
+	   - You have to get an APPID to get weather information
+	   - fill one of city name
+	*/
+
+	"weather": {
+		"appid": "",      // - get from http://openweathermap.org/appid
+		"city_name": "",  // - city name, country code e.g) seoul,KR
+		"geographic": {}, // - geographic coordinate (alternative) e.g) {"lat":35, "lon":139}
+		"proxy": "",      // - http proxy e.g) 10.75.97.11:8080 - if needed
+	},
+
+	/*  etc.  _____________________________________________________
+	*/
+
+	// automatically check and set 'gpu_window_buffer' as false for OSX to prevent screen flickering
+	"gpu_window_buffer_false": true
+}

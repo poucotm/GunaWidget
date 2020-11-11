@@ -1,0 +1,3 @@
+[
+	{ "keys": ["shift+escape"], "command": "guna_widget_switch_widget" }
+]
